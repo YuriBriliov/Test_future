@@ -1,0 +1,352 @@
+body {
+  width: 940px;
+  background-color: #e8fffc;
+  margin: 0 auto;
+  font-family: Noto Sans,sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 15px 15px;
+  height: 115px;
+}
+
+.head {
+  float: left;
+}
+
+#calc {
+  float: left;
+  margin-left: 275px;
+  color: red;
+  font-size: 18px;
+  margin-top: 70px;
+}
+
+.phone {
+  float: right;
+  margin-top: 10px;
+  padding: 5px 5px;
+  color: #282828;
+}
+
+.phone p {
+  font-size: 14px;
+  margin-left: 30px;
+  color: #424242;
+}
+
+.menu {
+  background-color: #fff;
+  width: 940px ;
+  margin: 0 auto;
+}
+
+.menu::before {
+  content: '';
+  display: block;
+  width: 100%;
+  background-color: red;
+  left: 0;
+}
+
+.menu ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  height: 50px;
+}
+
+.menu li {
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li a {
+   display: block;
+   height: 50px;
+   padding: 0 51px;
+   font-size: 17px;
+   text-decoration: none;
+   line-height: 50px;
+   color: #666666;
+}
+
+.menu li a:hover {
+  background-color: #8cdee2;
+}
+
+.word {
+  color: #666666;
+}
+
+.left_menu {
+  background-color: #fff;
+  width: 200px;
+  height: auto;
+  border-radius: 5px;
+  float: left;
+}
+
+.left_menu h4 {
+  padding: 10px 10px;
+  color: #666666;
+}
+
+.left_menu ul {
+  list-style-type: none;
+  padding: 10px 10px;
+}
+
+.left_menu li a {
+  color: #666666;
+  line-height: 10px;
+  color: grey;
+}
+
+.left_menu li a:hover {
+  color: red;
+}
+
+.example {
+  float: right;
+  background-color: #fff;
+  width: 720px;
+  border-radius: 5px;
+}
+
+.example h3 {
+  color: #666666;
+}
+
+.example h4 {
+  margin-left: 15px;
+  color: #666666;
+}
+
+.example a {
+  padding: 10px 10px;
+  color: #666666;
+}
+
+.example a img {
+  float:left;
+}
+
+.first_panel {
+
+  float: right;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  margin-left: 5px;
+}
+
+.first_panel li {
+  color: red;
+}
+
+.first_panel li span {
+  color: #666666;
+}
+
+.example h4 {
+  float: right;
+  padding-right: 165px;
+}
+
+.wood_panel {
+  float: right;
+}
+
+.wood_panel ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  height: 40px;
+  margin-right: 45px;
+}
+
+.wood_panel li {
+  float: right;
+}
+
+.wood_panel li a{
+  float: right;
+  padding: 0 2px;
+  margin-left: 2px;
+}
+
+.wood_panel img {
+  border-radius: 3px;
+}
+
+.example p {
+  font-size: 14px;
+  float: right;
+  margin-right: 75px;
+  margin-top: 20px;
+  color: #666666;
+}
+
+#button {
+  float: right;
+  display: block;
+  height: 45px;
+  padding: 0 45px;
+  font-size: 18px;
+  text-decoration: none;
+  line-height: 45px;
+  color: #fff;
+  margin-right: 95px;
+  background-color: #dd6a27;
+  border-radius: 7px;
+  margin-top: 30px;
+}
+
+#send {
+  float: right;
+  color: grey;
+  font-size: 16px;
+  margin-right: 75px;
+}
+
+#red_wood {
+  padding: 0;
+  margin: 0;
+  float: right;
+  color: grey;
+}
+
+#red_wood {
+  margin-top: 30px;
+  margin-right: 550px;
+  padding-bottom: 115px;
+}
+
+.rewiev {
+  float: right;
+  background-color: #fff;
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 15px 0px;
+}
+
+.rewiev h3 {
+  margin: 0;
+  padding: 0;
+  margin-left: 15px;
+  margin-top: 10px;
+  color: #666666;
+}
+
+.lam1 ul {
+  list-style-type: none;
+}
+
+.lam1 img {
+  float: left;
+}
+
+.lam1 p {
+  margin-left: 75px;
+  color: #666666;
+}
+
+
+.lam2 ul {
+  list-style-type: none;
+}
+
+.lam2 img {
+  float: left;
+}
+
+.lam2 p {
+  margin-left: 55px;
+  color: #666666;
+}
+
+.word2 {
+  margin: 0;
+  padding: 0;
+  float: right;
+  width: 100%;
+}
+
+.word2 h2 {
+  float: left;
+  margin-top: 50px;
+  color: #666666;
+}
+
+.word2 a {
+  float: right;
+  margin-top: 55px;
+  font-size: 18px;
+  color: red;
+}
+
+.comments {
+  float: right;
+  background-color: #fff;
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 15px 0px;
+  margin-bottom: 50px;
+}
+
+.comm {
+  padding: 10px 20px 10px 40px;
+}
+
+.comments p span {
+  color: grey;
+}
+
+#otziv {
+  margin-top: 50px;
+  color: #666666;
+}
+
+.comments ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.comments li {
+  float: left;
+  padding: 0px 2px;
+}
+
+.comments a {
+  float: left;
+  color: red;
+  text-decoration: none;
+}
+
+.comments a span {
+  padding: 0 5px;
+  border-bottom: 2px dashed red;
+}
+
+#button2 {
+  float: left;
+  display: block;
+  height: 40px;
+  padding: 0 30px;
+  font-size: 18px;
+  text-decoration: none;
+  line-height: 40px;
+  color: #fff;
+  background-color: #dd6a27;
+  border-radius: 7px;
+  margin-top: 30px;
+  float: right;
+  margin-right: 680px;
+}
